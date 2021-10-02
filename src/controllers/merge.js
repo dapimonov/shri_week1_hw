@@ -1,5 +1,6 @@
 const fs = require('fs');
 const sizeOf = require('image-size');
+const {hexToRgb} = require("../utils/hexToRgb");
 const { replaceBackground } = require('backrem');
 const { filesFolder } = require('../config');
 
@@ -14,12 +15,14 @@ module.exports = async (req, res) => {
   ) {
     const backStream = fs.createReadStream(backPath);
     const frontStream = fs.createReadStream(frontPath);
-    const color = req.query.color;
+    const color = req.query.color.startsWith('#')
+      ? hexToRgb(req.query.color)
+      : req.query.color.split(',');
     const threshold = req.query.threshold;
     replaceBackground(
       frontStream,
       backStream,
-      color.split(','),
+      color,
       threshold
     ).then((readableStream) => {
       res.setHeader('Content-Disposition', 'attachment: filename="result.jpg"');
