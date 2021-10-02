@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1383c95-531e-44f7-a82e-8d186099db9b" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1yuSJJhRvphUUCl2oblOemlEUeY" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1383c95-531e-44f7-a82e-8d186099db9b" name="Default Changelist" comment="" />
+      <created>1633099906784</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1633099906784</updated>
+      <workItem from="1633099908641" duration="21944000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="341" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1633103884159">
+      <screen x="0" y="23" width="1753" height="1097" />
+    </state>
+    <state x="341" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1753.1097@0.23.1753.1097" timestamp="1633103884159" />
+    <state x="586" y="380" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1633117690122">
+      <screen x="0" y="23" width="1754" height="1097" />
+    </state>
+    <state x="586" y="380" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1754.1097@0.23.1754.1097" timestamp="1633117690122" />
+    <state x="378" y="210" key="SettingsEditor" timestamp="1633116907695">
+      <screen x="0" y="23" width="1754" height="1097" />
+    </state>
+    <state x="378" y="210" key="SettingsEditor/0.23.1753.1097@0.23.1753.1097" timestamp="1633107686959" />
+    <state x="378" y="210" key="SettingsEditor/0.23.1754.1097@0.23.1754.1097" timestamp="1633116907695" />
+    <state x="576" y="328" width="600" height="486" key="find.popup" timestamp="1633206830695">
+      <screen x="0" y="23" width="1754" height="1097" />
+    </state>
+    <state x="576" y="328" width="600" height="486" key="find.popup/0.23.1754.1097@0.23.1754.1097" timestamp="1633206830695" />
+  </component>
+</project>
