@@ -8,6 +8,7 @@ module.exports = async (req, res) => {
     const path = filesFolder + req.params.id;
     const file = fs.createReadStream(path);
     res.setHeader('Content-Disposition', 'attachment; filename="' + req.params.id + '.jpg"');
+    res.setHeader("Content-Type", "image/jpeg");
     file.pipe(res);
   } else {
     res.status(404).send('Not found');
