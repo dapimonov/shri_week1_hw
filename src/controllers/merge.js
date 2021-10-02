@@ -25,7 +25,7 @@ module.exports = async (req, res) => {
       color,
       threshold
     ).then((readableStream) => {
-      res.setHeader('Content-Disposition', 'attachment: filename="result.jpg"');
+      res.setHeader('Content-Disposition', 'attachment; filename="result.jpg"');
       res.setHeader("Content-Type", "image/jpeg");
       readableStream.pipe(res);
     });
